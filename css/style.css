@@ -1,0 +1,84 @@
+ :root
+{
+    --bg-color: #24353f;
+    --text-color: #17a2b8;
+    --border-color:#17a2b8;
+}
+body
+{
+    background-color:white;
+
+}
+.bg-color
+{
+    background-color: var(--bg-color);
+}
+.text-color
+{
+    color: var(--text-color);
+    
+}
+.border-color
+{
+    border: solid 1px var(--border-color);
+}
+#btnLogin , #btnSignUp
+{
+    color: var(--text-color);
+}
+#btnLogin:hover , #btnSignUp:hover
+{
+    background-color: var(--text-color);
+    color: white;
+}
+.rounded-big
+{
+    border-radius: 20%;
+
+}
+.rounded-div
+{
+transform: translate(-50%,-50%);
+
+border-radius: 50%;
+background-color: black;
+    
+}
+.h-1000
+{
+    height: 1000px;
+    
+}
+.w-1000
+{
+    width: 1000px;
+}
+.end-25
+{
+    right: 25%;
+}
+.zindex-3
+{z-index: 3;}
+.zindex-2
+{z-index: 2;}
+.zindex-1
+{z-index: 1;}
+.zindex-4
+{
+    z-index: 4;
+}
+
+.login
+{
+    transform: translateX(-100%);
+}
+.translateX-100
+{
+    transform: translateX(-200%);
+}
+
+
+#loginForm
+{
+    background-color: rgba(0,0,0,.7);
+}
